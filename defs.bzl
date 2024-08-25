@@ -1,7 +1,7 @@
 load("@rules_jvm_external//:defs.bzl", "maven_install")
 
 def rules_jmh_maven_deps(
-    jmh_version = "1.21",
+    jmh_version = "1.34",
     repositories = ["https://repo1.maven.org/maven2"]):
     """Loads the maven dependencies of rules_jmh.
 
